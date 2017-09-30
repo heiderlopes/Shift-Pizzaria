@@ -5,4 +5,5 @@
     <color name="colorAccent">#8BC34A</color>
 
     <color name="corDaFonteDoBotao">#FFF</color>
+    <color name="erro">#FF0000</color>
 </resources>
