@@ -9,4 +9,8 @@
     <string name="label_fazer_pedido">Order</string>
     <string name="label_sobre">About</string>
     <string name="label_rodape">Developer by Heider Lopes</string>
+    <string name="label_cartao">cartao</string>
+    <string name="label_dinheiro">Dinheiro</string>
+    <string name="label_cheque">Cheque</string>
+    <string name="label_vr">VR</string>
 </resources>
