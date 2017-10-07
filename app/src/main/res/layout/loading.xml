@@ -3,7 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/loading"
-    android:visibility="gone">
+    android:visibility="gone"
+    android:background="#D9FFFFFF"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
 
     <ImageView
         android:id="@+id/ivLoading"
@@ -11,5 +14,18 @@
         android:layout_height="150dp"
         android:layout_centerInParent="true"
         android:src="@drawable/pizza_loading" />
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/ivLoading"
+        android:id="@+id/tvLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Carregando"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+
 
 </RelativeLayout>
